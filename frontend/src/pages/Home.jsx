@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import LatestCollection from '../components/LatestCollection'
+import BestSeller from '../components/Bestseller'
 
 function Home() {
   return (
     <div>
       <Hero/> 
-      <LatestCollection/>
+      <LatestCollection/> 
+      <BestSeller/>
     </div>
   )
 }
