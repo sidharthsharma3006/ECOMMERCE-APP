@@ -16,7 +16,7 @@ const NewsletterBox = () => {
         Lorem Ipsum is simply dummy text of printing and typesetting industry.
       </p>
 
-      <form className='w-full sm:w:1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
+      <form className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
         <input
           type="email"
           className="w-full sm:flex-1 outline-none"
