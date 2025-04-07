@@ -6,7 +6,17 @@ const Footer = () => {
     <div>
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
-          <img src={assets.logo} className="mb-5 w-32" alt="" />
+          <img
+            class="border-2"
+            style={{
+              objectFit: "contain",
+              padding: 0,
+              margin: 0,
+            }}
+            src={assets.logo1}
+            className="mb-1 w-50 "
+            alt=""
+          />
           <p className="w-full md:w-2/3 text-gray-600">
             Lorem Ipsum is simply dummy text of printing and typesetting
             industry. Lorem Ipsum has been the industry standard dummy text ever
@@ -28,17 +38,17 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>+1-212-456-7890</li> 
-            <li>contact@foreveryou.com</li>
+            <li>+1-212-456-7890</li>
+            <li>contact@ecommercefashion.com</li>
           </ul>
-        </div>  
-
-        <div>
-            <hr /> 
-            <p className='py-5 text-sm text-center'>Copyright 2024@ forever.com - All Right Reserved.</p>
         </div>
 
-
+        <div>
+          <hr />
+          <p className="py-5 text-sm text-center">
+            Copyright 2024@ ecommercefashion.com - All Right Reserved.
+          </p>
+        </div>
       </div>
     </div>
   );
